@@ -1,1 +1,0 @@
-This file contains Software information
