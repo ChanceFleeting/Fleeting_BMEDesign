@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=NetP2_PB5 Pin=Program port-1
+Removed Pin From Net: NetName=NetP2_PB0 Pin=Program port-2
+Removed Pin From Net: NetName=NetP2_PB2 Pin=Program port-3
+Removed Pin From Net: NetName=NetP2_PB1 Pin=Program port-4
+Removed Pin From Net: NetName=NetP2_PB0 Pin=R3-1
+Added Pin To Net: NetName=NetP2_PB0 Pin=P2-1
+Added Pin To Net: NetName=NetC5_1 Pin=P2-2
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Pin To Net: NetName=NetP2_PB1 Pin=P2-5
+Added Pin To Net: NetName=NetP2_PB2 Pin=P2-6
+Added Pin To Net: NetName=NetP2_PB5 Pin=P2-7
+Added Pin To Net: NetName=VCC Pin=P2-8
+Added Pin To Net: NetName=NetP2_PB0 Pin=Program port-1
+Added Pin To Net: NetName=NetP2_PB1 Pin=Program port-2
+Added Pin To Net: NetName=NetP2_PB5 Pin=Program port-3
+Added Pin To Net: NetName=NetP2_PB2 Pin=Program port-4
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetP2_PB1 Pin=R3-1
+Change Net Name : Old Net Name=NetP2_PB0 New Net Name=NetP2_1
+Change Net Name : Old Net Name=NetP2_PB1 New Net Name=NetP2_5
+Change Net Name : Old Net Name=NetP2_PB2 New Net Name=NetP2_6
+Change Net Name : Old Net Name=NetP2_PB5 New Net Name=NetP2_7

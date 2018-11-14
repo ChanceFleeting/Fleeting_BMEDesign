@@ -1,0 +1,20 @@
+Added Component: Designator=B1(SOT127P798X216-8N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "ATTINY85-20SU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/attiny85-20su/microchip-technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/2/ATTINY85-20SU.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "2.16mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ATTINY85-20SU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "1331674"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/1331674"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=NetB1_2 Pin=B1-2
+Added Pin To Net: NetName=NetB1_3 Pin=B1-3
+Added Pin To Net: NetName=GND Pin=B1-4
+Added Pin To Net: NetName=NetB1_5 Pin=B1-5
+Added Pin To Net: NetName=NetB1_6 Pin=B1-6
+Added Pin To Net: NetName=NetB1_7 Pin=B1-7
+Added Pin To Net: NetName=VCC Pin=B1-8
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Member To Class: ClassName=Sheet1 Member=Component B1 ATTINY85-20SU

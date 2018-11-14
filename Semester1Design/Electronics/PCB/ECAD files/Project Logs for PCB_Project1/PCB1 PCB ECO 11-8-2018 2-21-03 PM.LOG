@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=NetP2_1 Pin=port-1
+Removed Pin From Net: NetName=NetP2_5 Pin=port-2
+Removed Pin From Net: NetName=NetP2_7 Pin=port-3
+Removed Pin From Net: NetName=NetP2_6 Pin=port-4
+Removed Member From Class: ClassName=Sheet1 Member=port
+Added Component: Designator=P31(HDR1X2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P32(HDR1X2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetP2_1 Pin=P31-1
+Added Pin To Net: NetName=NetP2_7 Pin=P31-2
+Added Pin To Net: NetName=NetP2_6 Pin=P32-1
+Added Pin To Net: NetName=NetP2_5 Pin=P32-2
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Member To Class: ClassName=Sheet1 Member=Component P31 Port
+Added Member To Class: ClassName=Sheet1 Member=Component P32 Header 2
+Added Room: Name=Sheet1

@@ -1,0 +1,88 @@
+Removed Pin From Net: NetName=Net9V_2 Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=Net9V_2 Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=VCC Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=VCC Pin=C4-1
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=NetB1_2 Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=VCC Pin=R2-1
+Removed Pin From Net: NetName=NetB1_3 Pin=R3-1
+Removed Pin From Net: NetName=VCC Pin=VR-1
+Removed Pin From Net: NetName=GND Pin=VR-2
+Removed Pin From Net: NetName=Net9V_2 Pin=VR-3
+Removed Member From Class: ClassName=Sheet1 Member=C4
+Removed Member From Class: ClassName=Sheet1 Member=C5
+Removed Member From Class: ClassName=Sheet1 Member=R3
+Removed Member From Class: ClassName=Sheet1 Member=VR
+Change Component Footprint: Designator=Q1 Old Footprint=TO-92A New Footprint=TO-92_(TO-226)
+Change Component Comment : Designator=Q1 Old Comment=2N3904 New Comment=2N7000
+Change Component Comment : Designator=C2 Old Comment=Cap Pol3 New Comment=0.1uF
+Change Component Comment : Designator=C1 Old Comment=Cap Pol3 New Comment=0.47uF
+Change Component Comment : Designator=C3 Old Comment=Cap Pol3 New Comment=0.47uF
+Change component parameters: Designator = "C1"; Footprint = "CAPC2012X145N"; UniqueID = "\RQKSCEIP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "GRM21BR71H474KA88L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/grm21br71h474ka88l/murata-manufacturing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Geometry.Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "GRM21BR71H474KA88L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Part Number"; Value = "7236118P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/7236118P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2"; Footprint = "CAPC2012X145N"; UniqueID = "\CVLHSMVG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "GRM21BR71H474KA88L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/grm21br71h474ka88l/murata-manufacturing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Geometry.Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "GRM21BR71H474KA88L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Part Number"; Value = "7236118P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/7236118P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3"; Footprint = "CAPC2012X145N"; UniqueID = "\QRRUIEVC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "GRM21BR71H474KA88L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/grm21br71h474ka88l/murata-manufacturing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Geometry.Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "GRM21BR71H474KA88L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Part Number"; Value = "7236118P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/7236118P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1"; Footprint = "TO-92_(TO-226)"; UniqueID = "\VESTQFBI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "2N7000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/2n7000/on-semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2N7000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Part Number"; Value = "1698553"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/1698553"; VariantName = "[No Variations]"
+Added Component: Designator=VR1(LP0003A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "LM78L05ACZ/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/lm78l05acznopb/texas-instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.ti.com/lit/ds/symlink/lm78l.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LM78L05ACZ/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "5359975P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/5359975P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=Net9V_2 Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=VCC Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=NetB1_2 Pin=C3-2
+Added Pin To Net: NetName=NetB1_3 Pin=Q1-2
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Pin To Net: NetName=VCC Pin=VR1-1
+Added Pin To Net: NetName=GND Pin=VR1-2
+Added Pin To Net: NetName=Net9V_2 Pin=VR1-3
+Added Class: Name=Power
+Added Member To Class: ClassName=Sheet1 Member=Component VR1 LM78L05
+Added Room: Name=Sheet1
+Added Rule: Name=Schematic Width Constraint
+Added Rule: Name=Schematic Width Constraint_1

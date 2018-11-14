@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetB1_1 Pin=Prg-1
+Removed Pin From Net: NetName=VCC Pin=Prg-2
+Removed Pin From Net: NetName=NetB1_7 Pin=Prg-3
+Removed Pin From Net: NetName=NetB1_6 Pin=Prg-4
+Removed Pin From Net: NetName=NetB1_5 Pin=Prg-5
+Removed Pin From Net: NetName=GND Pin=Prg-6
+Removed Pin From Net: NetName=VCC Pin=R2-1
+Change Component Designator: OldDesignator=LEDs NewDesignator=to LEDs
+Added Pin To Net: NetName=GND Pin=Prg-1
+Added Pin To Net: NetName=NetB1_1 Pin=Prg-2
+Added Pin To Net: NetName=VCC Pin=Prg-3
+Added Pin To Net: NetName=NetB1_7 Pin=Prg-4
+Added Pin To Net: NetName=NetB1_6 Pin=Prg-5
+Added Pin To Net: NetName=NetB1_5 Pin=Prg-6
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Room: Name=Sheet1

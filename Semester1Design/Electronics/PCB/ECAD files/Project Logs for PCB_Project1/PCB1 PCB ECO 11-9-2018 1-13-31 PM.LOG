@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=VCC Pin=R2-2
+Change Net Name : Old Net Name=NetB?_2 New Net Name=NetC5_1
+Added Pin To Net: NetName=NetMCU1_1 Pin=P31-1
+Added Net: Name=NetMCU1_1
+Added Pin To Net: NetName=NetMCU1_3 Pin=R3-1
+Added Net: Name=NetMCU1_3
+Added Pin To Net: NetName=NetMCU1_5 Pin=P32-2
+Added Net: Name=NetMCU1_5
+Added Pin To Net: NetName=NetMCU1_6 Pin=P32-1
+Added Net: Name=NetMCU1_6
+Added Pin To Net: NetName=NetMCU1_7 Pin=P31-2
+Added Net: Name=NetMCU1_7

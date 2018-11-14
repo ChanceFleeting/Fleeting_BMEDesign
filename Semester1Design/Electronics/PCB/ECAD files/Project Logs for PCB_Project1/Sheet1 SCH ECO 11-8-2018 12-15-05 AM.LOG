@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=D1 Old Footprint=SMC New Footprint=3.2X1.6X1.1
+Change Component Footprint: Designator=VR Old Footprint=TO-92A New Footprint=D2PAK_N
+Change Component Comment: Designator=C3 Old Comment=a New Comment=Cap Pol3
+Change Component Comment: Designator=D1 Old Comment=Diode New Comment=LED2
+Change Component Comment: Designator=VR Old Comment=LM7805TO92 New Comment=Volt Reg
+Change Pin Designator/Name:  Old Designator=R2-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=VR-1 Old Name=E New Designator =C New Name=3
+Change Pin Designator/Name:  Old Designator=VR-3 Old Name=C New Designator =E New Name=1

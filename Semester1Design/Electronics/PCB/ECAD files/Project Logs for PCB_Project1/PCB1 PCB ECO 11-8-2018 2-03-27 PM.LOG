@@ -1,0 +1,3 @@
+Change Component Library : Designator=P2 Old Library=Miscellaneous Connectors.IntLib New Library=
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Room: Name=Sheet1
