@@ -1,2 +1,3 @@
 ## Software
-# HDL? Simulations?
+# Code for ATtiny.
+# Simulations
