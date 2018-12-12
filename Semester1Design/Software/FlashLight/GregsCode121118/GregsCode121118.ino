@@ -130,11 +130,7 @@ void loop() {
 ISR(PCINT0_vect) {
   // This will trigger on both rising and falling by default
   // need to read the state of the pin to tell if falling
-  now = micros();
   if (!digitalRead(BUTTONPIN)) {
-    if (now - lastPressedTime > bounceTime || State == 0) {
       pressCount += 1;
-    }
   }
-  lastPressedTime = micros();
 }

@@ -1,0 +1,15 @@
+Changes made:
+
+The TO92s were soldered below deck to allow for space ontop of device.
+Ribbon cable has been replaced by female headers for reprogramability
+100-Ohm resistor has been used as shunt to LED
+
+EC:
+Reprogramability
+Modular design (minibattery broke (I sat on it))
+Water proof (Still need to pot it in Nylon and coat the outside.
+Thematic (Altoids please sponsor me)
+
+
+
+
