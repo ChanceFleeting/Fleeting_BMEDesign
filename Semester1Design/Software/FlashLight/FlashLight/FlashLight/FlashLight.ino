@@ -1,5 +1,5 @@
 /* Blinking Flashlight Code
- version 2
+ version 3
  
  Chance Fleeting (crf37) 12/11/18
 
@@ -55,23 +55,31 @@ void setup() {
 
 void loop() {
   if (swtch) {
-    SwitchStates();
+    SwitchStates();                                     //  If triggered, itterate forward in states
   }
-  analogWrite(OPIN, Flash?((4<<(State<<1))-1):0);
+  analogWrite(OPIN, Flash?((4<<(State<<1))-1):0);       // if Flash boolean, use pwm == 4^(1+State)-1, else off
   if (State == 4) {
-    FlashMode();
+    FlashMode();                                        //Flashmode activated
   }
   if (State == 0) {
-    SleepMode();
+    SleepMode();                                        //Sleepmode activated
   }
 }
 
+/* SwitchStates():
+ *  Activates Flash Mode (activated by swtch)
+ *  5-step counter. Defaults Flash and resets swtch.
+ */
 void SwitchStates(){
     State = (++State)%5;
     Flash = !(State == 0);
     swtch &= LOW;
 }
 
+/* FlashMode():
+ *  Activates Flash Mode (activated State == 4)
+ *  Toggle alternator using internal clock.
+ */
 void FlashMode(){
       to = micros();
       if (to - t1 > T*500) {
@@ -80,12 +88,19 @@ void FlashMode(){
       }
 }
 
+/* SleepMode():
+ *  Activates Sleep Mode (activated State == 0)
+ *  Saves Power
+ */
 void SleepMode(){
       set_sleep_mode(SLEEP_MODE_PWR_DOWN);
       sleep_enable();
       sleep_cpu();
 }
 
+/* Interrupt:
+ *  Switches Boolean, which allows for change in state
+ */
 ISR(PCINT0_vect) {                                            // Respond on pin change (Rise | Fall)
   //Pin Change Interrupt Request 0 [3] No Nesting interrupts
       swtch |= !digitalRead(IPIN);              // ~High Respond -> Falling Edge; Turn on swtch state
